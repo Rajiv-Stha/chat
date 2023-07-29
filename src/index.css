@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&family=League+Spartan:wght@300;400&family=Poppins:wght@400;600&family=Shadows+Into+Light&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
+}
+:root{
+  --main_background_color:#202329;
+  --light_background_color:#2E333D;
+  --message_background_color:#6A8AFF;
+}

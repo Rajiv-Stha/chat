@@ -1,0 +1,7 @@
+.homepage_container{
+    width: 100vw;
+    height: 100vh;
+    /* background-color: rgb(192, 192, 221); */
+    padding: 1rem;
+    display: flex;
+}

@@ -1,0 +1,20 @@
+.messsageInput{
+    /* background-color: #2E333D; */
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+}
+.input_icon{
+    color: grey;
+    font-size: 20px;
+}
+.messsageInput input{
+    width: 90%;
+    background-color: transparent;
+    padding: 8px 0.8rem;
+    outline: none;
+    border: none;
+    color: whitesmoke;
+}

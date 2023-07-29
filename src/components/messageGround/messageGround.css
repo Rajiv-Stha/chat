@@ -1,0 +1,9 @@
+.message_ground{
+    height: 80%;
+    width: 100%;
+    overflow-y:scroll ;
+    padding: 1rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}

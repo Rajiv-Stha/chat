@@ -1,0 +1,46 @@
+.message_text{
+    width: fit-content;
+    max-width: 70%;
+    height: fit-content;
+    display: flex;
+    gap: 10px;
+
+    
+}
+.img_wrapper{
+    height: 50px;
+    width: 50px;
+    align-self: flex-end;
+}
+.img_wrapper img{
+  height: 80%;
+    width: 90%;
+    border-radius: 1.2rem;
+    object-fit: cover;
+    
+    
+}
+.text_message{
+    padding: 8px 10px;
+    border-radius: 12px;
+    background:var(--light_background_color)
+}
+.text_username{
+    font-size: 13px;
+    font-weight: bold;
+    color: white;
+}
+.text_inbox{
+    font-size: 11px;
+    color: whitesmoke;
+}
+.myChat{
+    margin-left: auto;
+    flex-direction: row-reverse;
+
+
+}
+.myChat .text_message{
+
+    background-color: var(--message_background_color);
+}
