@@ -1,10 +1,13 @@
-import React, { useState } from "react";
+import React, { useRef, useState } from "react";
 import { RiAttachment2 } from "react-icons/ri";
 import { BsMic } from "react-icons/bs";
 import "./messageInput.css";
+import { setMsgToLS } from "../../utils/Method";
 
 const MessageInput = ({ setMessageData }) => {
   const [messageInput, setMessageInput] = useState("");
+  const inputRef = useRef();
+
   const loggedInUser = {
     id: "#dsjgh",
     userName: "Rajiv",
@@ -26,13 +29,18 @@ const MessageInput = ({ setMessageData }) => {
       setMessageData((prev) => {
         return [...prev, newMessage];
       });
+      setMsgToLS(newMessage);
       setMessageInput("");
     }
   };
   // message ko state update
   return (
     <div className="messsageInput">
-      <RiAttachment2 className="input_icon" />
+      <input style={{ display: "none" }} type="file" ref={inputRef} />
+      <RiAttachment2
+        className="input_icon"
+        onClick={() => inputRef.current.click()}
+      />
       <input
         type="text"
         placeholder="Your message"

@@ -15,7 +15,7 @@ const Conversation = ({ chat }) => {
       <div className="conversation_info">
         <div className="conversation_main_info">
           <p className="conv_head">{chat.sender.userName}</p>
-          <p className="conv_msg">hello this is rajiv fuck you</p>
+          <p className="conv_msg">hello how are you?</p>
         </div>
         <div className="pinned">
           <p className="ago_time">{chat.time}</p>

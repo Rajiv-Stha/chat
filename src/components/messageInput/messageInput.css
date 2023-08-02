@@ -9,6 +9,7 @@
 .input_icon{
     color: grey;
     font-size: 20px;
+    cursor: pointer;
 }
 .messsageInput input{
     width: 90%;
